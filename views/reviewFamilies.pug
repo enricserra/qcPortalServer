@@ -6,6 +6,7 @@ html
     title Review Families
     include styles
   body
-    include header
-    include menu
+    include assets/header
+    include assets/menu
     include tables/reviewTable
+    script(data-main='/static/lib/require/reviewFamiliesRequire', src='/static/lib/external/require.js')

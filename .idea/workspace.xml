@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f78cdb8c-6384-4b60-8499-726d9bdb895b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gelLogoScaled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/HTML/reviewFamiliesTable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/additionalMDL.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/material.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/material.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mdl-jquery-modal-dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/styleForParticipantView.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/wideCard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/archive.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/header.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/menu.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/stagingArea.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/styles.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/tables/reviewTable.pug" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/tables/stagingTable.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/dialogPolyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/jasmine-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/jasmine-squery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/mdl-jquery-modal-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/external/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/js/catalog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/js/consentAPI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/js/dispatchAPI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/js/genePanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/require/reviewFamiliesRequire.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/require/stagingAreaRequire.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/tables/archiveTable.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/HTML/reviewFamiliesTable.html" afterPath="$PROJECT_DIR$/public/lib/require/archiveRequire.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/header.pug" afterPath="$PROJECT_DIR$/views/assets/header.pug" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/menu.pug" afterPath="$PROJECT_DIR$/views/assets/menu.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.js" afterPath="$PROJECT_DIR$/app/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qcPortal.js" afterPath="$PROJECT_DIR$/qcPortal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/archive.pug" afterPath="$PROJECT_DIR$/views/archive.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reviewFamilies.pug" afterPath="$PROJECT_DIR$/views/reviewFamilies.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/stagingArea.pug" afterPath="$PROJECT_DIR$/views/stagingArea.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tables/reviewTable.pug" afterPath="$PROJECT_DIR$/views/tables/reviewTable.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tables/stagingTable.pug" afterPath="$PROJECT_DIR$/views/tables/stagingTable.pug" />
     </list>
     <ignored path="gelQcServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,31 +50,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="qcPortal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qcPortal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state vertical-scroll-proportion="-8.709678">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviewFamilies.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="catalog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/js/catalog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="347" column="0" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatchAPI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/js/dispatchAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consentAPI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/js/consentAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genePanel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/lib/js/genePanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.56751466">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviewFamilies.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/reviewFamilies.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18145162">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.6">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,68 +113,38 @@
       <file leaf-file-name="stagingArea.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/stagingArea.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state vertical-scroll-proportion="-6.6">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reviewTable.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tables/reviewTable.pug">
+      <file leaf-file-name="archiveRequire.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/require/archiveRequire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stagingTable.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tables/stagingTable.pug">
+      <file leaf-file-name="reviewFamiliesRequire.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/require/reviewFamiliesRequire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/menu.pug">
+      <file leaf-file-name="stagingAreaRequire.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/require/stagingAreaRequire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/archive.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/header.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/styles.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,14 +163,19 @@
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/views/styles.pug" />
         <option value="$PROJECT_DIR$/views/header.pug" />
-        <option value="$PROJECT_DIR$/views/stagingArea.pug" />
-        <option value="$PROJECT_DIR$/views/tables/stagingTable.pug" />
-        <option value="$PROJECT_DIR$/views/tables/reviewTable.pug" />
         <option value="$PROJECT_DIR$/qcPortal.js" />
         <option value="$PROJECT_DIR$/views/menu.pug" />
+        <option value="$PROJECT_DIR$/views/tables/archiveTable.pug" />
+        <option value="$PROJECT_DIR$/views/tables/reviewTable.pug" />
+        <option value="$PROJECT_DIR$/views/tables/stagingTable.pug" />
+        <option value="$PROJECT_DIR$/views/reviewFamilies.pug" />
+        <option value="$PROJECT_DIR$/views/stagingArea.pug" />
         <option value="$PROJECT_DIR$/views/archive.pug" />
         <option value="$PROJECT_DIR$/app/routes.js" />
-        <option value="$PROJECT_DIR$/views/reviewFamilies.pug" />
+        <option value="$PROJECT_DIR$/public/lib/js/catalog.js" />
+        <option value="$PROJECT_DIR$/public/lib/js/consentAPI.js" />
+        <option value="$PROJECT_DIR$/public/lib/js/dispatchAPI.js" />
+        <option value="$PROJECT_DIR$/public/lib/js/genePanel.js" />
       </list>
     </option>
   </component>
@@ -243,43 +257,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gelQcServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gelQcServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gelQcServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gelQcServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="require" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,7 +283,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,7 +305,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gelQcServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gelQcServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,9 +351,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/lib" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/views/assets" />
       <recent name="$PROJECT_DIR$/views/tables" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/lib/external" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/css" />
     </key>
@@ -586,14 +594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/HTML/reviewFamiliesTable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6666667">
@@ -610,38 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/styles.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/stagingArea.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tables/stagingTable.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tables/reviewTable.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qcPortal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.2">
@@ -650,7 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.pug">
+    <entry file="file://$PROJECT_DIR$/views/assets/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
@@ -658,34 +626,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/archive.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/menu.pug">
+    <entry file="file://$PROJECT_DIR$/views/tables/reviewTable.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tables/stagingTable.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tables/archiveTable.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14516129">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/styles.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01814516">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/assets/menu.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14516129">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/require/archiveRequire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/require/reviewFamiliesRequire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/external/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/require/stagingAreaRequire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/archive.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21774194">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stagingArea.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/reviewFamilies.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18145162">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state vertical-scroll-proportion="-6.6">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.709678">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/js/catalog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="347" column="0" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/js/dispatchAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/js/consentAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/js/genePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.56751466">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>

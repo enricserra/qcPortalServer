@@ -3,9 +3,10 @@ html
   head
     meta(charset="utf-8")
     meta(name="description" content="API to View")
-    title Review Families
+    title Staging area
     include styles
   body
-    include header
-    include menu
+    include assets/header
+    include assets/menu
     include tables/stagingTable
+    script(data-main='/static/lib/require/stagingAreaRequire', src='/static/lib/external/require.js')
