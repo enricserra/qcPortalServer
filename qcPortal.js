@@ -1,14 +1,11 @@
 var express = require('express');
 var app = express();
 
-var configure_app = function(app)
- {
- app.set('view engine', 'ejs')
- app.set('./views/')
- app.use(express.static(process.env.PWD + '/public'))
-  console.log(process.env.PWD + '/public')
- app.engine('ejs', require('ejs-locals'));
- }
+var configure_app = function(app) {
+ app.set('view engine', 'pug');
+ app.set('./views/');
+ app.use('/static', express.static('public'));
+ };
 
 
 configure_app(app);

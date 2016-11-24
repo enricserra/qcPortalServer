@@ -1,0 +1,29 @@
+{
+  "name": "gelqcserver",
+  "version": "1.0.0",
+  "description": "A web server for the qc portal",
+  "main": "qcPortal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricserra/qcPortalServer.git"
+  },
+  "keywords": [
+    "qcPortal",
+    "CIP-API",
+    "QC"
+  ],
+  "author": "enric_serra_sanz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enricserra/qcPortalServer/issues"
+  },
+  "homepage": "https://github.com/enricserra/qcPortalServer#readme",
+  "dependencies": {
+    "ejs-locals": "^1.0.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {}
+}

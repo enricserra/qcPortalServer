@@ -1,0 +1,23 @@
+/*Wide card with share menu button */
+    .Review-card-wide.mdl-card {
+        width: 100%;
+    }
+    .Review-card-wide.mdl-card__title {
+        background: url('/labkey/reportGMC/img/background-report_GMC.jpg') center / cover;
+    }
+
+
+    .Report-card-wide.mdl-card {
+        width: 100%;
+    }
+    .Report-card-wide.mdl-card__title {
+        width: 100%;
+        background: url('/labkey/reportGMC/img/background-report_GMC.jpg') center / cover;
+    }
+    .fifth-width {
+        width: 16%;
+    }
+    .mdl-menu{
+        position:relative;
+    }
+
